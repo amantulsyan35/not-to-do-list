@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Shadows+Into+Light+Two&family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>Don't do it</title>
+    <script src="cat.js"></script>
+
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <span class="dp"></span>
+        <h1 class="displayName">Name</h1>
+        <!-- <span class="all">ALL</span> -->
+      </div>
+
+      <div class="grid-item-2">
+        <div class="grid-item-3">
+          <div class="welcome">
+            <h1 class="dashboardWelcome">Welcome</h1>
+          </div>
+          <span class="add">
+            <i class="fa fa-plug fa-2x" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <div class="todo_card">
+          <div id="select" class="hide">
+            <label>Title</label>
+            <input type="text" id="title" name="title " />
+            <label>Description</label>
+            <textarea id="desc" name="desc" rows="8" cols="100"></textarea>
+            <label>Category</label>
+            <input type="text" id="cat" name="cat" />
+            <input type="submit" class="cat_sub" onClick="createCategory()"/>
+          </div>
+          <div class="card">
+            <h1>WHY</h1>
+            <p>🔮🔮🔮</p>
+            <a href ="cat_page.html">DON'T CLICK</a>
+
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
